@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #25292e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+
+#texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 50%;
+    width: 60%;
+    border: 1px solid #ccc;
+    margin: 20% auto;
+}
+
+.messages-container {
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    height: 90%;
+}
+
+#input {
+    width: 87%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+#send {
+    height: 100%;
+    width: 13%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #25d366;
+    color: white;
+}
